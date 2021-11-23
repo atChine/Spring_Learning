@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="user" class="com.gaoju.spring.User"></bean>
+
+        <bean id="book" class="com.gaoju.spring.Book">
+               <property name="name">
+                   <value><![CDATA[<<南京>>]]></value>
+               </property>
+                <property name="writer" value="吴承恩"></property>
+        </bean>
+
+
+    <bean id="order" class="com.gaoju.spring.Order">
+        <constructor-arg index="0" value="卫龙"/>
+        <constructor-arg index="1" value="2"/>
+    </bean>
+</beans>
