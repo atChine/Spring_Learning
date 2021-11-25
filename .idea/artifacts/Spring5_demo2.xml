@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Spring5_demo2">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring5_demo2</output-path>
+    <root id="root">
+      <element id="archive" name="Spring5_demo2.jar">
+        <element id="module-output" name="Spring5_demo2" />
+      </element>
+    </root>
+  </artifact>
+</component>
